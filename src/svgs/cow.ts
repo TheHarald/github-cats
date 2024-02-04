@@ -289,5 +289,4 @@ export const cow = `
 <rect x="64" y="64" width="4" height="4" fill="#90625D" />
 <rect x="68" y="64" width="4" height="4" fill="#90625D" />
 </svg>
-</svg>
 `;
