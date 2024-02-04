@@ -335,6 +335,7 @@ export const cow0 = `
 <rect x="84" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
 <rect x="88" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
 <rect x="92" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
+<animate attributeName="visibility" values="visible;hidden;hidden" dur="1s" repeatCount="indefinite" />
 </svg>
 `;
 export const cow1 = `
@@ -674,6 +675,7 @@ export const cow1 = `
 <rect x="84" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
 <rect x="88" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
 <rect x="92" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
+<animate attributeName="visibility" values="hidden;visible" dur="1s" repeatCount="indefinite" />
 </svg>
 `;
 export const cow2 = `
@@ -1005,5 +1007,6 @@ export const cow2 = `
 <rect x="84" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
 <rect x="88" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
 <rect x="92" y="116" width="4" height="4" fill="#504086" opacity="0.117647" />
+<animate attributeName="visibility" values="visible;hidden" dur="1s" repeatCount="indefinite" />
 </svg>
 `;
