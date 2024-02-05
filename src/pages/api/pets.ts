@@ -1,8 +1,5 @@
-import { cow } from "@/svgs/cow/cow";
-import { cow1Rects, cow2Rects } from "@/svgs/cow/cow-rects";
+import { cow, walkingCow } from "@/svgs/cow/cow";
 import { NextApiRequest, NextApiResponse } from "next";
-
-type TPet = "cow";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { query, method } = req;
@@ -15,7 +12,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   res.setHeader("Cache-Control", "s-maxage=1, stale-while-revalidate");
 
   if (pet === "cow") {
-    res.status(200).send(cow);
+    res.status(200).send(walkingCow);
   }
 
   res.status(200).send(cow);
