@@ -1,6 +1,6 @@
 import { cowWalkFrame1, cowWalkFrame2 } from "./cow-frames";
 
-export const cow = `
+const cow = `
   <g width="128" height="128" fill="none" > 
     <g width="128" height="128" fill="none" >
       ${cowWalkFrame1}

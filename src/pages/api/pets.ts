@@ -1,4 +1,4 @@
-import { cow, walkingCow } from "@/svgs/cow/cow";
+import { walkingCow } from "@/svgs/cow/cow";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
@@ -15,5 +15,5 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.status(200).send(walkingCow);
   }
 
-  res.status(200).send(cow);
+  res.status(200).send(walkingCow);
 }
