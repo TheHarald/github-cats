@@ -1,1 +1,1 @@
-https://github-cats.vercel.app/api/cats
+https://github-pets.vercel.app/api/pets
